@@ -58,7 +58,7 @@ a:focus, a:hover {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/*  two column-layout instead of three columns */
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -66,15 +66,20 @@ a:focus, a:hover {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
   }
+  p{
+      font-size: 12px;
+      line-height: 1.6;
+      margin: 0 0 35px;
+  }
 }
 
-@media(min-width:768px){
+@media(min-width:700px){
     p{
         font-size: 18px;
         line-height: 1.6;
@@ -90,7 +95,7 @@ a:focus, a:hover {
     padding: 200px 0;
     text-align: center;
     color:white;
-    background: url('img/intro-bg.jpg') no-repeat bottom center scroll;
+    background: url('img/intro-bg.jpg') /*no-repeat bottom center scroll*/;
     background-color: black;
     background-attachment: fixed;
     background-position: center;
