@@ -13,51 +13,41 @@
   <body id="page-top">
 
    <!-- NAVBAR -->
-   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-       <div class="container">
-           <a href="#page-top" class="navbar-brand js-scroll-trigger">Lancer <span class="text-danger">Xander</span></a>
-           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fa fa-bars"></i></button>
-           <div class="collapse navbar-collapse" id="navbarResponsive">
-               <ul class="navbar-nav ml-auto">
-                   <li class="nav-item">
-                       <a href="#about" class="nav-link js-scroll-trigger">About</a>
-                    </li>
-                   <li class="nav-item">
-                       <a href="#gallery" class="nav-link js-scroll-trigger">Portfolio</a>
-                    </li>
-                   <li class="nav-item">
-                       <a href="#contact" class="nav-link js-scroll-trigger">Contact</a>
-                    </li>
-               </ul>
-           </div><!-- END nabarResponsive -->
-       </div><!-- END container -->
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="mainNav">
+     <a class="navbar-brand js-scroll-trigger" href="#page-top">Lancer <span class="text-danger">Xander</span></a>
+     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fa fa-bars"></i></button>
+     <div class="collapse navbar-collapse" id="navbarResponsive">
+     <ul class="navbar-nav ml-auto">
+       <li class="nav-item">
+         <a class="nav-link js-scroll-trigger" href="#about">About</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link js-scroll-trigger" href="#gallery">Portfolio</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+       </li>
+     </ul>
+    </div>
    </nav>
 
-   <!-- END NAVBAR -->
+   <div class="container-fluid">
+     <div class="jumbotron">
+       <h1 class="brand-heading">LANCER<span class="text-danger">XANDER</span></h1>
+       <p class="alert alert-dark" role="alert">ART PORTFOLIO</p>
+       <a href="#about" class="btn btn-circle js-scroll-trigger">
+           <i class="fa fa-angle-double-down animated"></i></a>
+     </div>
 
-<!-- MASTHEAD -->
-    <header class="masthead">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h1 class="brand-heading">LANCER<span class="text-danger">XANDER</span></h1>
-                        <p class="intro-text tag-line">ART PORTFOLIO</p>
-                        <a href="#about" class="btn btn-circle js-scroll-trigger">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div><!-- end col-lg-8 -->
-                </div><!-- end row -->
-            </div><!-- end row -->
-        </div><!-- end intro-body -->
-    </header>
-<!-- END MASTHEAD -->
+   </div>
+
+
 
     <!-- ABOUT -->
     <section id="about" class="content-section text-center">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 mx-auto">
+                <div class="column mx-auto">
                     <h2>About <span class="text-danger">XANDER</span></h2>
                     <p><br>Freelance Illustrator and Graphic Designer with a focus in Character and Environmental design.<br></p>
 
@@ -78,9 +68,8 @@
     <!-- END ABOUT -->
 
     <!-- GALLERY -->
-    <div id="gallery" class="container">
+    <div id="gallery" class="container-fluid">
       <div class="row">
-
         <div class="column">
           <img src="https://i.imgur.com/rwpPBWU.png" class="img-thumbnail" alt="The Ring - 2019">
           <img src="https://i.imgur.com/2otM1uY.png" class="img-thumbnail" alt="Map AKBK - 2016">
@@ -122,29 +111,11 @@
 
     <!-- CONTACT SECTION -->
     <section id="contact" class="content-section text-center">
-       <div class="container">
+       <div class="container-fluid">
            <div class="row">
-               <div class="col-lg-8 mx-auto">
+               <div class="column mx-auto">
                    <h2>Contact <span class="text-danger">Xander</span></h2>
-                   <p>This form below will open your default mail program.</p>
 
-                  <p>
-                   <form action="mailto:lancerxander@gmail.com" method="GET" target="_blank">
-                     <div class="form-group">
-                       <label for="emailSubject">Email Subject:</label>
-                       <input type="text" class="form-control" id="emailSubject">
-                     </div>
-                     <div class="form-group">
-                       <label for="emailBody">Email Body:</label>
-                       <input type="text" class="form-control" id="emailBody">
-                     </div>
-                     <button type="submit" class="btn btn-default">Submit</button>
-                   </form>
-                 </p>
-
-                 <p>SOCIAL MEDIA:<br>
-
-             </p>
 
                   <!--All icons from https://fontawesome.com/license-->
                   <a href="https://www.artstation.com/lancerxander" class="fab fa-artstation"></a>
@@ -169,7 +140,7 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="container text-center">
+        <div class="container-fluid text-center">
 
         <p>&copy; <script>document.write(new Date().getFullYear());</script> LancerXander. </p>
    </div>

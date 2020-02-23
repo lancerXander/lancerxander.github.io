@@ -88,7 +88,7 @@ a:focus, a:hover {
 }
 
 
-.masthead{
+.jumbotron{
     display: table;
     width: 100%;
     height: auto;
@@ -103,30 +103,18 @@ a:focus, a:hover {
     background-size: cover;
 }
 
-.masthead .intro-body{
-    display: table-cell;
-    vertical-align: middle;
+.jumbotron div {
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.masthead .intro-body .brand-heading{
-    font-size: 50px;
-}
-
-.masthead .intro-body .intro-text{
-    font-size: 18px;
+.brand-heading{
+    font-size: 5em;
 }
 
 @media(min-width: 768px){
-    .masthead {
-        height: 100%;
-        padding: 0;
-    }
-
-    .masthead .intro-body .brand-heading{
-        font-size: 100px;
-    }
-    .masthead .intro-body .intro-text{
-        font-size: 22px;
+    .brand-heading{
+        font-size: 4em;
     }
 }
 
@@ -143,7 +131,7 @@ a:focus, a:hover {
 }
 
 .display-1{
-    font-size:  1.5em;
+    font-size:  1.0em;
 }
 
 .btn-circle{
