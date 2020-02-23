@@ -256,3 +256,7 @@ a:focus, a:hover{
   background: hsla(0, 0%, 20%, .9);
   text-align: justify;
 }
+
+.zoom-in {
+  cursor: zoom-in;
+}
