@@ -45,7 +45,7 @@ a:focus, a:hover {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
   flex: 33%;
   max-width: 33%;
@@ -58,7 +58,7 @@ a:focus, a:hover {
   width: 100%;
 }
 
-/*  two column-layout instead of three columns */
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -66,7 +66,7 @@ a:focus, a:hover {
   }
 }
 
-/* two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -84,6 +84,9 @@ a:focus, a:hover {
         font-size: 18px;
         line-height: 1.6;
         margin: 0 0 35px;
+    }
+    .brand-heading{
+        font-size: 4em;
     }
 }
 
@@ -110,12 +113,6 @@ a:focus, a:hover {
 
 .brand-heading{
     font-size: 5em;
-}
-
-@media(min-width: 768px){
-    .brand-heading{
-        font-size: 4em;
-    }
 }
 
 .text-drop{

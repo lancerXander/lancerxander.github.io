@@ -1,18 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
      <link href="https://fonts.googleapis.com/css?family=Cabin:700|Roboto+Slab&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="styles.css">
     <title>LancerXander - Art Portfolio</title>
   </head>
   <body id="page-top">
 
-   <!-- NAVBAR -->
    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="mainNav">
      <a class="navbar-brand js-scroll-trigger" href="#page-top">Lancer <span class="text-danger">Xander</span></a>
      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fa fa-bars"></i></button>
@@ -31,43 +33,28 @@
     </div>
    </nav>
 
-   <div class="container-fluid">
-     <div class="jumbotron">
-       <h1 class="brand-heading">LANCER<span class="text-danger">XANDER</span></h1>
-       <p class="alert alert-dark" role="alert">ART PORTFOLIO</p>
-       <a href="#about" class="btn btn-circle js-scroll-trigger">
-           <i class="fa fa-angle-double-down animated"></i></a>
-     </div>
-
+   <div class="jumbotron text-center">
+     <h1>Lancer <span class="text-danger">Xander</span></h1>
+     <p>ART PORTFOLIO</p>
    </div>
 
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>About <span class="text-danger">XANDER</span></h2>
+          <p><br>Freelance Illustrator and Graphic Designer with a focus in Character and Environmental design.<br></p>
 
+          <p>Graduted Northern Michigan University in 2012 with a BFA, Art & Design.</p>
 
-    <!-- ABOUT -->
-    <section id="about" class="content-section text-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="column mx-auto">
-                    <h2>About <span class="text-danger">XANDER</span></h2>
-                    <p><br>Freelance Illustrator and Graphic Designer with a focus in Character and Environmental design.<br></p>
+          <p>Website made in Bootstrap with FA Icons and Google Fonts.
 
-                    <p>Graduted Northern Michigan University in 2012 with a BFA, Art & Design.</p>
+          <br>Want to know more? Feel free to contact me for hiring, commissions and questions:
+          Click below for contact info and social media!<br>
+          <a href="#contact" class="btn btn-circle js-scroll-trigger">
+              <i class="fa fa-angle-double-down animated"></i>
+          </a></p>
+      </div>
 
-                    <p>Website made in Bootstrap with FA Icons and Google Fonts.
-
-                    <br>Want to know more? Feel free to contact me for hiring, commissions and questions:
-                    Click below for contact info and social media!<br>
-                    <a href="#contact" class="btn btn-circle js-scroll-trigger">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a></p>
-                </div><!-- end col-8 -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section>
-
-    <!-- END ABOUT -->
-
-    <!-- GALLERY -->
     <div id="gallery" class="container-fluid">
       <div class="row">
         <div class="column">
@@ -104,61 +91,35 @@
           <img src="https://i.imgur.com/JKc1KJC.png" class="img-thumbnail" alt="Fantasy Saxon #1 - 2020">
         </div>
       </div>
-    </div><!-- end Container -->
-    <!-- END GALLERY -->
-
-
-
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="content-section text-center">
-       <div class="container-fluid">
-           <div class="row">
-               <div class="column mx-auto">
-                   <h2>Contact <span class="text-danger">Xander</span></h2>
-
-
-                  <!--All icons from https://fontawesome.com/license-->
-                  <a href="https://www.artstation.com/lancerxander" class="fab fa-artstation"></a>
-                  <a href="https://www.behance.net/lancerxander" class="fab fa-behance"></a>
-                  <a href="https://github.com/lancerXander" class="fab fa-github"></a>
-                  <a href="https://twitter.com/LancerXander" class="fab fa-twitter"></a>
-                  <a href="https://www.instagram.com/lancerxander/" class="fab fa-instagram"></a>
-                  <a href="https://www.deviantart.com/lancerxander" class="fab fa-deviantart"></a>
+    </div>
 
 
 
 
 
 
+    <div class="col-lg-12 text-center" id="contact">
+      <h2>Contact <span class="text-danger">Xander</span></h2>
+      <!--All icons from https://fontawesome.com/license-->
+      <a href="https://www.artstation.com/lancerxander" class="fab fa-artstation"></a>
+      <a href="https://www.behance.net/lancerxander" class="fab fa-behance"></a>
+      <a href="https://github.com/lancerXander" class="fab fa-github"></a>
+      <a href="https://twitter.com/LancerXander" class="fab fa-twitter"></a>
+      <a href="https://www.instagram.com/lancerxander/" class="fab fa-instagram"></a>
+      <a href="https://www.deviantart.com/lancerxander" class="fab fa-deviantart"></a>
+    </div>
 
 
-               </div><!-- end col-lg-8 -->
-           </div><!-- end row -->
-       </div><!-- end container -->
-    </section>
-    <!-- END CONTACT SECTION -->
 
-    <!-- FOOTER -->
-    <footer>
+
         <div class="container-fluid text-center">
 
         <p>&copy; <script>document.write(new Date().getFullYear());</script> LancerXander. </p>
-   </div>
-    </footer>
+        </div>
 
-
-
-
-
-    <!-- END FOOTER -->
-  <script src="js/jquery.min.js"></script>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script src="js/jquery.easing.min.js"></script>
     <script src="quickscript.js"></script>
-    <script
+    <script>
   </body>
 </html>
