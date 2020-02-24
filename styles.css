@@ -109,7 +109,7 @@ a:focus, a:hover{
   }
 }
 
-.fab, .fas {
+.fab {
   padding: 10px;
   font-size: 30px;
   width: 50px;
@@ -122,6 +122,16 @@ a:focus, a:hover{
 .fab:hover {
     background-color: #ffffff;
     color:#dc3545;
+}
+
+.fas {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .fas:hover {
