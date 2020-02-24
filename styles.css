@@ -21,6 +21,10 @@ a:focus, a:hover{
     color:#fd7e14;
 }
 
+.card a:hover {
+  color:#ffffff;
+}
+
 .navbar {
   font-family: 'Cabin', sans-serif;
   text-transform: uppercase;
@@ -105,7 +109,7 @@ a:focus, a:hover{
   }
 }
 
-.fab {
+.fab, .fas {
   padding: 10px;
   font-size: 30px;
   width: 50px;
@@ -116,6 +120,11 @@ a:focus, a:hover{
 }
 
 .fab:hover {
+    background-color: #ffffff;
+    color:#dc3545;
+}
+
+.fas:hover {
     background-color: #ffffff;
     color:#dc3545;
 }
@@ -146,6 +155,11 @@ a:focus, a:hover{
 }
 
 .fa-deviantart {
+  background: #dc3545;
+  color: #ffffff;
+}
+
+.fa-envelope {
   background: #dc3545;
   color: #ffffff;
 }
